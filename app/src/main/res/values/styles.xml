@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btn" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/ghgreen</item>
+    </style>
+    <style name="tvList" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="tvDetail" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tvDetail.akun">
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="tvDetail.akun.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="tvTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:alpha">1</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="tvET" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">1</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="tvET.black">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="tvAcc" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">1</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="tvAcc.black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="tvAcc.blue">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>
